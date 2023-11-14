@@ -24,7 +24,7 @@ For toString(), make it return "This Triangle has a perimeter of [perimeter] and
 
 For example, if someone calls
 ```java
-Triangle myTriangle() = Triangle(1.4, 3.5, 3.77);
+Triangle myTriangle = new Triangle(1.4, 3.5, 3.77);
 System.out.println(myTriangle.toString()); //should return "This Triangle has a perimeter of 8.67 and an area of 2.45"
 ```
 
@@ -34,7 +34,7 @@ How do you test code? You simply add the lines to your java file (in the future,
 As such, we would recommend adding the following just above def main().
 
 ```java
-Triangle myTriangle() = Triangle(1.4, 3.5, 3.77);
+Triangle myTriangle = new Triangle(1.4, 3.5, 3.77);
 System.out.println("TESTING: " + myTriangle.toString());
 System.out.println("TESTING: " + myTriangle.area());
 System.out.println("TESTING: " + myTriangle.perimeter());
